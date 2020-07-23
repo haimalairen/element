@@ -52,6 +52,8 @@
     },
     computed: {
       active() {
+        console.log('this.rootMenu:', this.rootMenu);
+        console.log('this.rootMenu.activeIndex:', this.rootMenu.activeIndex);
         return this.index === this.rootMenu.activeIndex;
       },
       hoverBackground() {

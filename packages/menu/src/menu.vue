@@ -257,7 +257,7 @@
         const { index, indexPath } = item;
         const oldActiveIndex = this.activeIndex;
         const hasIndex = item.index !== null;
-
+        console.log('menu-item:', item);
         if (hasIndex) {
           this.activeIndex = item.index;
         }
